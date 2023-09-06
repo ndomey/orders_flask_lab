@@ -1,4 +1,4 @@
-from models.task import Order
+from models.order import Order
 
 order_1 = Order("Bob", "01.02.1999", 1, "Harley-Davidson", "Fatboy")
 order_2 = Order("Steve", "05.04.1999", 1, "Kawasaki", "ER-5")

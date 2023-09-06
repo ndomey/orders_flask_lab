@@ -4,15 +4,13 @@
     </head>
     <body>
         <h1>{{ title }}</h1>
-
         <ul>
             {% for order in orders %}
             <li><b>{{ order.customer_name }}</b>:
             {{ order.order_date }}, 
             {{ order.quantity }}, 
             {{ order.brand }}, 
-            {{ order.model }},
-            <a href="/orders/{{orders.index(order)}}>Show Order</a>
+            {{ order.model }}
             </li>
             {% endfor %}
         </ul>
